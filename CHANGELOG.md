@@ -1,10 +1,10 @@
-# Rinvex Subscriptions Change Log
+# Kesty Subscriptions Change Log
 
 All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
-## [v6.1.0] - 2023-11-28
+## [v6.2.0] - 2023-11-28
 - Update composer dependencies to Laravel v10+
 - Add support for model HasFactory
 

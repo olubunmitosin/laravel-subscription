@@ -39,7 +39,7 @@
 
 ### Add Subscriptions to User model
 
-**Rinvex Subscriptions** has been specially made for Eloquent and simplicity has been taken very serious as in any other Laravel related aspect. To add Subscription functionality to your User model just use the `\Rinvex\Subscriptions\Traits\HasPlanSubscriptions` trait like this:
+**Kesty Subscriptions** has been specially made for Eloquent and simplicity has been taken very serious as in any other Laravel related aspect. To add Subscription functionality to your User model just use the `\Rinvex\Subscriptions\Traits\HasPlanSubscriptions` trait like this:
 
 ```php
 namespace App\Models;
