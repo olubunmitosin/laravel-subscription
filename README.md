@@ -261,6 +261,14 @@ By default the subscription will remain active until the end of the period, you 
 $user->planSubscription('main')->cancel(true);
 ```
 
+### Delete a Subscription
+
+To delete a subscription, simply use the `deleteSubscription` method on the user's subscription:
+
+```php
+$user->planSubscription('main')->deleteSubscription();
+```
+
 ### Scopes
 
 #### Subscription Model

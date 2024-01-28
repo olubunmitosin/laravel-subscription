@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
+## [v6.3.0] - 2024-01-28
+- Added ability to delete subscription
+- Add support for model HasFactory
+
 ## [v6.2.0] - 2023-11-28
 - Update composer dependencies to Laravel v10+
 - Add support for model HasFactory
