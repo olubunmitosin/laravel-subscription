@@ -289,13 +289,19 @@ class PlanSubscription extends Model
 
     /**
      * Delete subscription plan.
-     *
+     * 
+     * @param bool $forceDelete
      *
      * @return void
      */
-    public function deleteSubscription()
+    public function deleteSubscription($forceDelete = false)
     {
-        $this->delete();
+       
+        if ($forceDelete) {
+            $this->forceDelete();
+        } else {
+            $this->delete();
+        }
     }
 
     /**

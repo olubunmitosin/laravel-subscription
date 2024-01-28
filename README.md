@@ -269,6 +269,12 @@ To delete a subscription, simply use the `deleteSubscription` method on the user
 $user->planSubscription('main')->deleteSubscription();
 ```
 
+By default the subscription will remain in the table and not totally removed, you may pass `true` to forceDelete the subscription _immediately_:
+
+```php
+$user->planSubscription('main')->deleteSubscription(true);
+```
+
 ### Scopes
 
 #### Subscription Model
