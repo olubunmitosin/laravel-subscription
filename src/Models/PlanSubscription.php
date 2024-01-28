@@ -286,6 +286,18 @@ class PlanSubscription extends Model
         return $this;
     }
 
+
+    /**
+     * Delete subscription plan.
+     *
+     *
+     * @return void
+     */
+    public function deleteSubscription()
+    {
+        $this->delete();
+    }
+
     /**
      * Change subscription plan.
      *
